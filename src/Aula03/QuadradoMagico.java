@@ -3,15 +3,12 @@ package Aula03;
 public class QuadradoMagico {
 
 	public static void main(String[] args) {
-		
             int[][] M = {
                         {8, 0, 7},
                         {4, 5, 6},
                         {3, 10, 2}
                     };
-            
             System.out.println(ehQuadradoMagico(M));
-
 	}
 	
 	public static boolean ehQuadradoMagico(int[][] M) {
